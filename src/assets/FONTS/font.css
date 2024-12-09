@@ -1,0 +1,70 @@
+/*-----------------------------------*\
+  #style.css
+\*-----------------------------------*/
+
+/*
+  - copyright 2024-25 AbhayKumar
+ */
+
+/* 
+  - Archivo Black & Archivo 
+*/
+@font-face {
+	font-family: "Archivo Black", serif;
+	src: local("ArchivoBlack Regular"), local("ArchivoBlack-Regular"),
+		url("./Archivo_Black/ArchivoBlack-Regular.ttf") format("ttf");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Archivo", serif;
+	src: local("Archivo Regular"), local("Archivo-Regular"),
+		url("./Archivo/Archivo-Regular.ttf"), format("ttf");
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+	font-variation-settings: "wdth" 100;
+}
+
+/* 
+  - League Spartan
+*/
+
+@font-face {
+	font-family: "League Spartan", sans-serif;
+	src: local("LeagueSpartan Light"), local("LeagueSpartan-Light"),
+		url("./League_Spartan/LeagueSpartan-Light.ttf"), format("ttf");
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "League Spartan", sans-serif;
+	src: local("LeagueSpartan Regular"), local("LeagueSpartan-Regular"),
+		url("./League_Spartan/LeagueSpartan-Regular.ttf"), format("ttf");
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* 
+  - Stalemate 400
+*/
+@font-face {
+	font-family: "Stalemate", serif;
+	src: local("Stalemate Regular"), local("Stalemate-Regular"),
+		url("./Stalemate/Stalemate-Regular.ttf"), format("ttf");
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* #### Fatherly #### */
+@font-face {
+	font-family: "Fatherly Regular", serif;
+	src: local("Fatherly Regular"), local("Fatherly-Regular"),
+		url("./fatherly/Fatherly-514Gj.otf"), format("otf");
+	font-style: normal;
+	font-weight: normal;
+}
