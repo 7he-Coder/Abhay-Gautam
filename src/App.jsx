@@ -1,9 +1,9 @@
-// import About from "./components/About";
-import ChatBot from "./components/ChatBot";
-import CTA from "./components/CTA";
 import HeroSection from "./components/HeroSection";
-import Navbar from "./components/navbar";
 import OtherStuff from "./components/OtherStuff";
+import ChatBot from "./components/ChatBot";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+import CTA from "./components/CTA";
 
 const App = () => {
 	return (
@@ -13,7 +13,9 @@ const App = () => {
 			<ChatBot />
 			<HeroSection />
 			<CTA />
-			<div className="max-w-7xl mx-auto pt-20 px-6">{/* <About /> */}</div>
+			<div className="max-w-7xl mx-auto pt-20 px-6">
+				<About />
+			</div>
 		</>
 	);
 };
