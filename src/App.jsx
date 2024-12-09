@@ -1,4 +1,4 @@
-import About from "./components/About";
+// import About from "./components/About";
 import ChatBot from "./components/ChatBot";
 import CTA from "./components/CTA";
 import HeroSection from "./components/HeroSection";
